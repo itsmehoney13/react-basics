@@ -1,10 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./SearchApp";
-import "./SearchApp.css";
+import Temp from "./TempApp";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root")
 );
 
-root.render(<App />);
+root.render(<Temp />);
